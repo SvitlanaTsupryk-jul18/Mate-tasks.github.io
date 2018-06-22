@@ -48,7 +48,7 @@ footer{
 	margin-left: 5%;
 	float:left;
 }
-#tel, footer img:hover {
+footer img, #tel:hover {
    -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
