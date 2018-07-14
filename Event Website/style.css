@@ -1,0 +1,539 @@
+                                                @font-face {
+                                                    font-family: MyriadPro;
+                                                    /* Имя шрифта */
+                                                    src: url(fonts/MyriadPro/MyriadPro-Regular.otf);
+                                                    /* Путь к файлу со шрифтом */
+                                                    font-weight: normal;
+                                                    font-style: normal;
+                                                }
+                                                
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                ul {
+                                                    list-style: none;
+                                                }
+                                                
+                                                a {
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                body {
+                                                    max-width: 1368px;
+                                                    margin: 0;
+                                                }
+                                                
+                                                header {
+                                                    background-color: #f8f4f4;
+                                                    padding: 45px 100px;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: baseline;
+                                                }
+                                                
+                                                h1 {
+                                                    font-family: 'Open Sans Semibold', sans-serif;
+                                                    font-size: 25pt;
+                                                    margin: 0;
+                                                    width: 25%;
+                                                }
+                                                
+                                                nav {
+                                                    display: flex;
+                                                    justify-content: flex-end;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                nav li {
+                                                    display: inline-block;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
+                                                    font-size: 14pt;
+                                                    padding: 10px 11px;
+                                                }
+                                                
+                                                nav li:hover {
+                                                    background-color: #03a9f4;
+                                                }
+                                                
+                                                nav a {
+                                                    color: black;
+                                                }
+                                                
+                                                nav a:hover {
+                                                    color: white;
+                                                }
+                                                
+                                                section.slide {
+                                                    background-image: url(images/main2.png);
+                                                    /* background-repeat: no-repeat;*/
+                                                    background-size: 100%;
+                                                    max-height: 765px;
+                                                    padding: 10%;
+                                                }
+                                                
+                                                .slide h2 {
+                                                    margin: auto;
+                                                    font-family: Open Sans Bold, sans-serif;
+                                                    font-size: 50pt;
+                                                    color: white;
+                                                }
+                                                
+                                                .slide h3 {
+                                                    font-family: Open Sans Semiold, sans-serif;
+                                                    font-size: 30pt;
+                                                    color: white;
+                                                }
+                                                
+                                                #clockdiv {
+                                                    font-family: Open Sans Bold, sans-serif;
+                                                    color: white;
+                                                    display: inline-block;
+                                                    text-align: center;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                #clockdiv>div {
+                                                    padding: 10px;
+                                                    font-size: 14pt;
+                                                    display: inline-block;
+                                                }
+                                                
+                                                #clockdiv div>span {
+                                                    font-size: 30pt;
+                                                    display: inline-block;
+                                                }
+                                                
+                                                center button {
+                                                    background: none;
+                                                    background-size: cover;
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 15pt;
+                                                    color: white;
+                                                    padding: 20px 30px;
+                                                    border: 1px white solid;
+                                                    margin-right: 20px;
+                                                }
+                                                
+                                                center button:hover {
+                                                    background-color: #03a9f4;
+                                                }
+                                                
+                                                .about {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .about div {
+                                                    padding: 10%;
+                                                    width: 50%;
+                                                }
+                                                
+                                                .about h2 {
+                                                    font-family: Open Sans Bold, sans-serif;
+                                                    font-size: 30pt;
+                                                }
+                                                
+                                                .about article {
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                }
+                                                
+                                                .about p {
+                                                    margin-top: 30px;
+                                                }
+                                                
+                                                video {
+                                                    position: relative;
+                                                    z-index: -1;
+                                                }
+                                                
+                                                .controls {
+                                                    margin-top: -35%;
+                                                    margin-bottom: 20%;
+                                                    color: white;
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 30pt;
+                                                }
+                                                
+                                                .controls button {
+                                                    background-image: url(images/play\ icon.png);
+                                                    background-color: none;
+                                                    border: none;
+                                                    width: 75px;
+                                                    height: 75px;
+                                                }
+                                                
+                                                .cont {
+                                                    text-align: center;
+                                                }
+                                                
+                                                .cont a {
+                                                    background-image: url(images/cercle.png);
+                                                    color: white;
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    padding: 34px;
+                                                }
+                                                
+                                                .cont h3 {
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 13pt;
+                                                    color: black;
+                                                    margin-top: 65px;
+                                                }
+                                                
+                                                .cont p {
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                    color: #666666;
+                                                }
+                                                
+                                                .statistics {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    align-items: center;
+                                                    flex-wrap: wrap;
+                                                    padding: 100px 50px 50px 50px;
+                                                    background-color: #f8f8f8;
+                                                }
+                                                
+                                                .box {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    flex-wrap: wrap;
+                                                }
+                                                
+                                                .brands {
+                                                    margin-bottom: 50px;
+                                                }
+                                                
+                                                .brands img {
+                                                    padding: 25px;
+                                                }
+                                                
+                                                .speaker {
+                                                    text-align: center;
+                                                    background-color: #343131;
+                                                    padding: 50px;
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    color: white;
+                                                }
+                                                
+                                                .speaker h2 {
+                                                    font-size: 30pt;
+                                                }
+                                                
+                                                .fimg img {
+                                                    zoom: 90%;
+                                                }
+                                                
+                                                .speaker img:hover {
+                                                    opacity: 0.5;
+                                                }
+                                                
+                                                .fimg:hover .fotoinfo {
+                                                    visibility: visible;
+                                                }
+                                                
+                                                .foto {
+                                                    margin-top: 60px;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    flex-wrap: wrap;
+                                                }
+                                                
+                                                .fimg {
+                                                    position: relative;
+                                                }
+                                                
+                                                .fotoinfo {
+                                                    font-size: 13pt;
+                                                    visibility: hidden;
+                                                    text-align: left;
+                                                    position: absolute;
+                                                    bottom: 5%;
+                                                    left: 5%;
+                                                    width: 60%;
+                                                    line-height: 0.9;
+                                                }
+                                                
+                                                .fotoinfo a {
+                                                    color: white;
+                                                    margin: 10px;
+                                                }
+                                                
+                                                .fotoinfo a:hover {
+                                                    color: #29cadf;
+                                                }
+                                                
+                                                .purchase {
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    text-align: center;
+                                                    background-color: #f8f8f8;
+                                                    position: relative;
+                                                    padding: 100px 0px;
+                                                    width: 100%;
+                                                }
+                                                
+                                                .purchase h2,
+                                                .blog h2,
+                                                .book h2 {
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 30pt;
+                                                    color: black;
+                                                }
+                                                
+                                                .page {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    text-align: left;
+                                                }
+                                                
+                                                .page figcaption p {
+                                                    font-size: 13pt;
+                                                    color: #666666;
+                                                }
+                                                
+                                                .page figure {
+                                                    background-color: white;
+                                                }
+                                                
+                                                .page figcaption h3 {
+                                                    font-size: 15pt;
+                                                }
+                                                
+                                                .coll1 {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    flex-direction: column;
+                                                    padding-top: 70px;
+                                                }
+                                                
+                                                .coll2 {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    flex-direction: column;
+                                                    position: relative;
+                                                }
+                                                
+                                                .coll2 img:hover {
+                                                    opacity: 0.5;
+                                                }
+                                                
+                                                .coll2 a {
+                                                    background-image: url(images/ellipse.png);
+                                                    background-repeat: no-repeat;
+                                                    margin: 200px 0px;
+                                                    position: relative;
+                                                }
+                                                
+                                                #main {
+                                                    position: absolute;
+                                                    z-index: 0;
+                                                    left: 50%;
+                                                }
+                                                
+                                                .coll3 {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    padding-top: 100px;
+                                                }
+                                                
+                                                .purchase button {
+                                                    background: none;
+                                                    background-size: cover;
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 13pt;
+                                                    padding: 15px 30px;
+                                                    border: 1px #eaeaea solid;
+                                                    margin-right: 1px;
+                                                    margin-top: 50px;
+                                                }
+                                                
+                                                .purchase button:hover {
+                                                    background-color: #03a9f4;
+                                                    color: white;
+                                                }
+                                                
+                                                .signup {
+                                                    background-image: url(images/take.png);
+                                                    background-size: cover;
+                                                    width: 100%;
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 20pt;
+                                                    color: white;
+                                                }
+                                                
+                                                .hurry {
+                                                    padding: 60px 100px;
+                                                }
+                                                
+                                                .hurry button {
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 13pt;
+                                                    padding: 15px 30px;
+                                                    background-color: #03a9f4;
+                                                    color: white;
+                                                    border: none;
+                                                    margin-left: 200px;
+                                                }
+                                                
+                                                .hurry button:hover {
+                                                    border: 1px white solid;
+                                                }
+                                                
+                                                .blog {
+                                                    text-align: center;
+                                                    width: 100%;
+                                                }
+                                                
+                                                .wrblog {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    color: #999999;
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                    margin: 50px 0 100px 0;
+                                                }
+                                                
+                                                .blog h3 {
+                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-size: 15pt;
+                                                    color: black;
+                                                }
+                                                
+                                                .wrblog article {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    text-align: justify;
+                                                }
+                                                
+                                                .wrblog img {
+                                                    zoom: 90%;
+                                                }
+                                                
+                                                figcaption {
+                                                    border-bottom: 1px #eaeaea solid;
+                                                }
+                                                
+                                                .wrblog article p {
+                                                    padding: 0 40px;
+                                                    margin: 0;
+                                                }
+                                                
+                                                .book {
+                                                    background-color: #f8f8f8;
+                                                    width: 100%;
+                                                    color: #999999;
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                }
+                                                
+                                                #seet {
+                                                    float: left;
+                                                    zoom: 90%;
+                                                }
+                                                
+                                                .booking {
+                                                    margin-left: 45%;
+                                                    padding: 30px;
+                                                }
+                                                
+                                                #mail {
+                                                    height: 40px;
+                                                    width: 250px;
+                                                    border: 1px #f1f1f1 solid;
+                                                    padding-left: 10px;
+                                                }
+                                                
+                                                #mail:first-child {
+                                                    margin-right: 20px;
+                                                }
+                                                
+                                                #subj {
+                                                    height: 40px;
+                                                    width: 534px;
+                                                    border: 1px #f1f1f1 solid;
+                                                    padding-left: 10px;
+                                                }
+                                                
+                                                textarea {
+                                                    height: 160px;
+                                                    width: 534px;
+                                                    border: 1px #f1f1f1 solid;
+                                                    padding-left: 10px;
+                                                }
+                                                
+                                                #submit {
+                                                    height: 40px;
+                                                    width: 165px;
+                                                    background-color: #03a9f4;
+                                                    color: white;
+                                                    border: none;
+                                                }
+                                                
+                                                .maps img {
+                                                    width: 100%;
+                                                }
+                                                
+                                                .footer1 {
+                                                    background-color: #333333;
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                    color: #7e7e7e;
+                                                    padding: 50px;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                
+                                                .rights {
+                                                    background-color: #262626;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    padding: 15px 100px;
+                                                    color: #7e7e7e;
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 13pt;
+                                                }
+                                                
+                                                footer h3 {
+                                                    color: white;
+                                                }
+                                                
+                                                footer a {
+                                                    color: #7e7e7e;
+                                                }
+                                                
+                                                footer li {
+                                                    font-family: Open Sans, sans-serif;
+                                                    font-size: 12pt;
+                                                }
+                                                
+                                                .rights a:hover {
+                                                    color: #03a9f4;
+                                                }
+                                                
+                                                nav input {
+                                                    height: 40px;
+                                                    width: 200px;
+                                                    background-color: #595959;
+                                                    color: white;
+                                                    border: none;
+                                                    padding-left: 10px;
+                                                }
+                                                
+                                                #news {
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    background-color: #29cadf;
+                                                    color: white;
+                                                    border: none;
+                                                }
+                                                
+                                                #newsletter p {
+                                                    width: 280px;
+                                                }
