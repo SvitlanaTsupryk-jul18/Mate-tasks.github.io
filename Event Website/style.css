@@ -6,7 +6,8 @@
                                                     font-weight: normal;
                                                     font-style: normal;
                                                 }
-                                                
+                                                 font-family: 'Open Sans', sans-serif;
+                                             
                                                 * {
                                                     margin: 0;
                                                     padding: 0;
@@ -76,19 +77,19 @@
                                                 
                                                 .slide h2 {
                                                     margin: auto;
-                                                    font-family: Open Sans Bold, sans-serif;
+                                                    font-family: 'Open Sans Bold', sans-serif;
                                                     font-size: 50pt;
                                                     color: white;
                                                 }
                                                 
                                                 .slide h3 {
-                                                    font-family: Open Sans Semiold, sans-serif;
+                                                    font-family: 'Open Sans Semiold', sans-serif;
                                                     font-size: 30pt;
                                                     color: white;
                                                 }
                                                 
                                                 #clockdiv {
-                                                    font-family: Open Sans Bold, sans-serif;
+                                                    font-family: 'Open Sans Bold', sans-serif;
                                                     color: white;
                                                     display: inline-block;
                                                     text-align: center;
@@ -109,7 +110,7 @@
                                                 center button {
                                                     background: none;
                                                     background-size: cover;
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 15pt;
                                                     color: white;
                                                     padding: 20px 30px;
@@ -138,7 +139,7 @@
                                                 }
                                                 
                                                 .about article {
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                 }
                                                 
@@ -155,7 +156,7 @@
                                                     margin-top: -35%;
                                                     margin-bottom: 20%;
                                                     color: white;
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 30pt;
                                                 }
                                                 
@@ -180,14 +181,14 @@
                                                 }
                                                 
                                                 .cont h3 {
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 13pt;
                                                     color: black;
                                                     margin-top: 65px;
                                                 }
                                                 
                                                 .cont p {
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                     color: #666666;
                                                 }
@@ -219,7 +220,7 @@
                                                     text-align: center;
                                                     background-color: #343131;
                                                     padding: 50px;
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     color: white;
                                                 }
                                                 
@@ -271,7 +272,7 @@
                                                 }
                                                 
                                                 .purchase {
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     text-align: center;
                                                     background-color: #f8f8f8;
                                                     position: relative;
@@ -282,7 +283,7 @@
                                                 .purchase h2,
                                                 .blog h2,
                                                 .book h2 {
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 30pt;
                                                     color: black;
                                                 }
@@ -346,7 +347,7 @@
                                                 .purchase button {
                                                     background: none;
                                                     background-size: cover;
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 13pt;
                                                     padding: 15px 30px;
                                                     border: 1px #eaeaea solid;
@@ -363,7 +364,7 @@
                                                     background-image: url(images/take.png);
                                                     background-size: cover;
                                                     width: 100%;
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 20pt;
                                                     color: white;
                                                 }
@@ -373,7 +374,7 @@
                                                 }
                                                 
                                                 .hurry button {
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 13pt;
                                                     padding: 15px 30px;
                                                     background-color: #03a9f4;
@@ -395,13 +396,13 @@
                                                     display: flex;
                                                     justify-content: space-around;
                                                     color: #999999;
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                     margin: 50px 0 100px 0;
                                                 }
                                                 
                                                 .blog h3 {
-                                                    font-family: Open Sans Semibold, sans-serif;
+                                                    font-family: 'Open Sans Semibold', sans-serif;
                                                     font-size: 15pt;
                                                     color: black;
                                                 }
@@ -429,7 +430,7 @@
                                                     background-color: #f8f8f8;
                                                     width: 100%;
                                                     color: #999999;
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                 }
                                                 
@@ -482,7 +483,7 @@
                                                 
                                                 .footer1 {
                                                     background-color: #333333;
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                     color: #7e7e7e;
                                                     padding: 50px;
@@ -496,7 +497,7 @@
                                                     justify-content: space-between;
                                                     padding: 15px 100px;
                                                     color: #7e7e7e;
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family: 'Open Sans', sans-serif;
                                                     font-size: 13pt;
                                                 }
                                                 
@@ -509,7 +510,7 @@
                                                 }
                                                 
                                                 footer li {
-                                                    font-family: Open Sans, sans-serif;
+                                                    font-family:' Open Sans', sans-serif;
                                                     font-size: 12pt;
                                                 }
                                                 
