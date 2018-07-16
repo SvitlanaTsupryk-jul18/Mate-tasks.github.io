@@ -617,6 +617,54 @@
                 }
             }
             
-            @media screen and (max-width:479px) {
+           @media screen and (min-width:320px) and (max-width:479px) {
                 /* Target portrait smartphones */
+                .book img,
+                .about img,
+                .purchase {
+                    display: none;
+                }
+                header {
+                    padding: 15px 30px;
+                }
+                .slide {
+                    background-color: #7e7e7e;
+                }
+                nav li {
+                    padding: 5px;
+                }
+                .slide h2,
+                .about h2,
+                .project h2,
+                .blog h2,
+                .book h2 {
+                    font-size: 20pt;
+                }
+                .slide h3,
+                .blog {
+                    font-size: 13pt;
+                }
+                .about div {
+                    padding: 10%;
+                    width: 100%;
+                }
+                .statistics,
+                .hurry {
+                    padding: 20px;
+                }
+                .cont {
+                    margin-top: 40px;
+                }
+                .wrblog {
+                    margin: 0%;
+                    flex-wrap: wrap;
+                }
+                .footer1,
+                .rights {
+                    flex-wrap: wrap;
+                    padding: 40px;
+                }
+                .fimg img {
+                    max-width: 100%;
+                }
             }
